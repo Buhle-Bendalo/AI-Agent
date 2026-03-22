@@ -9,7 +9,7 @@ from tools import process_file_to_text
 # 1. CONFIGURATION & UI SETUP
 # ==========================================
 # ⚠️ Ensure your key is placed here
-MY_API_KEY = ""
+MY_API_KEY = st.secrets["MY_API_KEY"]
 OUTPUT_DIR = "generated_docs"
 EXAMPLES_DIR = "Examples"
 
